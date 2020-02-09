@@ -93,7 +93,7 @@ d-i mirror/http/directory string /debian
 d-i mirror/http/proxy string
 
 tasksel tasksel/first multiselect ssh-server
-d-i pkgsel/include string screen vim htop
+d-i pkgsel/include string screen vim htop python3 rsync
 d-i pkgsel/upgrade select none
 
 # Disable that annoying WEP key dialog.
